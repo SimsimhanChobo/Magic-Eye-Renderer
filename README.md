@@ -27,3 +27,11 @@ TEAM Bucket 블랙리스트에 등록된 사람은 등록된 기간의 모든 �
 - y : API, 클래스 추가, 변경과 같은 작업을 해서 변경된 사항이 클때 1 올립니다
 - z : API, 클래스 추가, 변경과 같은 작업을 했지만 변경된 사항이 작을때 1 올립니다
 - x가 0이라면 이는 초기 개발 버전을 의미합니다 (버전 표기법을 완벽하게 따르지 않아도 됨)
+
+
+## 미리보기
+![image](https://user-images.githubusercontent.com/65212622/198066917-f3b83430-77f7-4c2e-9801-77ddee4b08cf.png)
+[출처](https://namu.wiki/jump/zp7mRskgW5wcpWU9epYckSUHpErX%2FnAJk04CYxCUfvpSW%2BXugGzTLCdAYzpjaKmO)
+
+![image](https://user-images.githubusercontent.com/65212622/198067290-adfa7965-ff50-462b-81b6-dcc33abca033.png)
+[출처](https://www.youtube.com/watch?v=RLuGJGyCS90) (잘 안보이시갰지만 놀랍게도 배드 애플입니다)
