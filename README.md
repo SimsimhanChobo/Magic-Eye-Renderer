@@ -1,5 +1,6 @@
 # Magic Eye Renderer
 매직 아이를 평범하게 볼 수 있게 해줍니다
+이 프로젝트는 대충 만들어졌습니다
 
 ## 라이선스
 TEAM Bucket 블랙리스트에 등록된 사람은 등록된 기간의 모든 커밋 또는 릴리즈 등 제 모든 창작물을 이용, 변경 등을 할 수 없습니다 (2022-07-28 0:53 시간 이후의 만들어진 창작물만 해당)  
@@ -32,6 +33,7 @@ TEAM Bucket 블랙리스트에 등록된 사람은 등록된 기간의 모든 �
 ## 미리보기
 ![image](https://user-images.githubusercontent.com/65212622/198066917-f3b83430-77f7-4c2e-9801-77ddee4b08cf.png)
 [출처](https://namu.wiki/jump/zp7mRskgW5wcpWU9epYckSUHpErX%2FnAJk04CYxCUfvpSW%2BXugGzTLCdAYzpjaKmO)
+
 
 ![image](https://user-images.githubusercontent.com/65212622/198067290-adfa7965-ff50-462b-81b6-dcc33abca033.png)
 [출처](https://www.youtube.com/watch?v=RLuGJGyCS90) (잘 안보이시갰지만 놀랍게도 배드 애플입니다)
