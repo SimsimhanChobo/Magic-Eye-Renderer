@@ -23,10 +23,10 @@ public class VideoPlayerManager : MonoBehaviour
             {
                 Destroy(videoPlayer.targetTexture);
                 videoPlayer.targetTexture = new RenderTexture((int)videoPlayer.width, (int)videoPlayer.height, 24);
-
-                leftFitter.aspectRatio = (float)videoPlayer.width / videoPlayer.height;
-                rightFitter.aspectRatio = (float)videoPlayer.width / videoPlayer.height;
             }
+
+            leftFitter.aspectRatio = (float)videoPlayer.width / videoPlayer.height;
+            rightFitter.aspectRatio = (float)videoPlayer.width / videoPlayer.height;
 
             left.texture = videoPlayer.targetTexture;
             right.texture = videoPlayer.targetTexture;
