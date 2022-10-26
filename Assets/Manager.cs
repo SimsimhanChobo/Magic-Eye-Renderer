@@ -1,5 +1,6 @@
 using B83.Win32;
 using SFB;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -46,8 +47,12 @@ public class Manager : MonoBehaviour
     void RefreshDragAndDrop(List<string> paths, POINT point) => Refresh(paths[0]);
 
 
+    Texture2D lastTexture;
     void Refresh(string path)
     {
+        if (lastTexture != null)
+            Destroy(lastTexture);
+
         videoPlayer.Stop();
 
         for (int i = 0; i < videoExtension.Length; i++)
@@ -74,6 +79,8 @@ public class Manager : MonoBehaviour
 
                 leftFitter.aspectRatio = (float)texture.width / texture.height;
                 rightFitter.aspectRatio = (float)texture.width / texture.height;
+
+                lastTexture = texture;
             }
         }
     }
