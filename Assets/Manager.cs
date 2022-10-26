@@ -1,6 +1,7 @@
 using B83.Win32;
 using SFB;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -32,6 +33,34 @@ public class Manager : MonoBehaviour
     {
         UnityDragAndDropHook.UninstallHook();
         UnityDragAndDropHook.OnDroppedFiles -= RefreshDragAndDrop;
+    }
+
+    IEnumerator Start()
+    {
+        if (!Application.isEditor)
+        {
+            while (true)
+            {
+                if (Input.GetKeyDown(KeyCode.F11))
+                {
+                    if (Screen.fullScreen)
+                        Screen.SetResolution((int)(Screen.currentResolution.width / 1.5f), (int)(Screen.currentResolution.height / 1.5f), false);
+                    else
+                    {
+                        Screen.SetResolution(Screen.currentResolution.width, Screen.currentResolution.height, false);
+
+                        yield return null;
+                        yield return null;
+                        yield return null;
+                        yield return null;
+
+                        Screen.SetResolution(Screen.currentResolution.width, Screen.currentResolution.height, true);
+                    }
+                }
+
+                yield return null;
+            }
+        }
     }
 
     void Update()
